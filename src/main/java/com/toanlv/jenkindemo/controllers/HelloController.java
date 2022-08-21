@@ -10,11 +10,11 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "xin chao Toan" ;
+        return "xin chao Toan le" ;
     }
 
     @GetMapping("")
     public String home(){
-        return "Xin chao den voi spring app";
+        return "Xin chao den voi spring app jenkins demo";
     }
 }
